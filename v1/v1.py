@@ -22,4 +22,4 @@ def logic(money, points):
     bet.append("no bet")
   if len(act) == 0:
     act.append("stand")
-  print("Bot Move: ", act, "\nBot Bet:", bglobala
+  print("Bot Move: ", act, "\nBot Bet:", bet)
