@@ -12,7 +12,7 @@ def logic(money, points):
     elif points < 17:
       act.append("hit")
       bet.append(money * 0.25)
-  elif money < 50:
+  elif money < 99:
     if points > 16:
       act.append("stand")
     else:
