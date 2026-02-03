@@ -1,7 +1,6 @@
-"""
 global act
 
-v1 - 60% success rate
+# v1 - 60% success rate
 
 def logic(money, points):
   # Strategy: Careful, high roller
@@ -23,5 +22,4 @@ def logic(money, points):
     bet.append("no bet")
   if len(act) == 0:
     act.append("stand")
-  print("Bot Move: ", act, "\nBot Bet:", bet)
-"""
+  print("Bot Move: ", act, "\nBot Bet:", bglobala
